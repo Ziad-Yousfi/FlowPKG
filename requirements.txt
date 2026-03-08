@@ -1,0 +1,11 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# PS4 Package Viewer — Dépendances Python
+# ──────────────────────────────────────────────────────────────────────────────
+# Installation : pip install -r requirements.txt
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Framework d'interface graphique (Qt6 pour Python)
+PyQt6>=6.5.0
+
+# Manipulation d'images (conversion icon0.png si nécessaire)
+Pillow>=10.0.0

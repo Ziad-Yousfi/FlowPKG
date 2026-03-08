@@ -1,0 +1,46 @@
+﻿pyinstaller : 216 INFO: 
+PyInstaller: 6.19.0, contrib 
+hooks: 2026.2
+Au caractère Ligne:1 : 1
++ pyinstaller AeroPKG.spec 
+--noconfirm 2>&1 | Out-File 
+-FilePath build_ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (216 INF  
+  O: PyIns...b hooks: 2026   
+ .2:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+216 INFO: Python: 3.11.0
+237 INFO: Platform: 
+Windows-10-10.0.26200-SP0
+237 INFO: Python 
+environment: D:\Programmes\Py
+thon\python311
+241 INFO: Module search 
+paths (PYTHONPATH):
+['D:\\Programmes\\Python\\pyt
+hon311\\Scripts\\pyinstaller.
+exe',
+ 'D:\\Programmes\\Python\\pyt
+hon311\\python311.zip',
+ 'D:\\Programmes\\Python\\pyt
+hon311\\Lib',
+ 'D:\\Programmes\\Python\\pyt
+hon311\\DLLs',
+ 'D:\\Programmes\\Python\\pyt
+hon311',
+ 'D:\\Programmes\\Python\\pyt
+hon311\\Lib\\site-packages',
+ 'D:\\Documents\\VS3\\AeroPKG
+_v1']
+758 INFO: Appending 'datas' 
+from .spec
+ERROR: Unable to find 'D:\\Do
+cuments\\VS3\\AeroPKG_v1\\ico
+n_v1.png' when adding binary 
+and data files.

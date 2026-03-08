@@ -1,0 +1,27 @@
+Windows Registry Editor Version 5.00
+
+; =============================================
+; AeroPKG — "Open with" context menu for .pkg
+; =============================================
+
+; 1. Register AeroPKG as a known application
+[HKEY_CURRENT_USER\Software\Classes\Applications\AeroPKG.exe]
+"FriendlyAppName"="AeroPKG"
+
+[HKEY_CURRENT_USER\Software\Classes\Applications\AeroPKG.exe\shell\open]
+@="Open with AeroPKG"
+"Icon"="\"D:\\Documents\\VS3\\AeroPKG_v1\\aeropkg_icon.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\Applications\AeroPKG.exe\shell\open\command]
+@="\"D:\\Documents\\VS3\\AeroPKG_v1\\dist\\AeroPKG.exe\" \"%1\""
+
+; 2. Add AeroPKG to the "Open with" list for .pkg files
+[HKEY_CURRENT_USER\Software\Classes\.pkg\OpenWithList\AeroPKG.exe]
+
+; 3. Direct context menu entry on .pkg files: "Open with AeroPKG"
+[HKEY_CURRENT_USER\Software\Classes\.pkg\shell\AeroPKG]
+@="Open with AeroPKG"
+"Icon"="\"D:\\Documents\\VS3\\AeroPKG_v1\\aeropkg_icon.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\.pkg\shell\AeroPKG\command]
+@="\"D:\\Documents\\VS3\\AeroPKG_v1\\dist\\AeroPKG.exe\" \"%1\""

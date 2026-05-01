@@ -1,7 +1,10 @@
 # AeroPKG (FlowPKG) — PS4 Package Viewer
 
-<details open>
-<summary><strong>English</strong></summary>
+**Language:** [English](#english) | [Français](#français)
+
+---
+
+## English
 
 AeroPKG (also known internally as FlowPKG) is a fluid and modern desktop application designed to analyze and display metadata from PlayStation 4 `.pkg` files.
 
@@ -74,10 +77,9 @@ If you use the compiled version, you can easily add AeroPKG to the Windows right
 
 This project is distributed under the **MIT** license. Feel free to study it, modify it, and share it.
 
-</details>
+---
 
-<details>
-<summary><strong>Français</strong></summary>
+## Français
 
 AeroPKG (également connu sous le nom interne de FlowPKG) est une application de bureau fluide et moderne permettant d'analyser et d'afficher les métadonnées des fichiers `.pkg` de PlayStation 4. 
 
@@ -149,5 +151,3 @@ Si vous utilisez la version compilée, vous pouvez ajouter facilement AeroPKG à
 ## 📝 Licence
 
 Ce projet est distribué sous la licence **MIT**. N'hésitez pas à l'étudier, le modifier et le partager.
-
-</details>
